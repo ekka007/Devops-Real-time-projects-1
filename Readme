@@ -1,1 +1,25 @@
+An organization XYZ Private Limited is developing a blogging platform using WordPress and
+MySQL. They have containerized their application. Now they are seeking your help in writing a
+docker-compose file to manage both the application together.
+
+You are requested to do following task :
+1. Install docker-compose.
+2. Write a docker-compose file for running MySQL and WordPress application.
+3. Configure the db connection and volumes for data persistence in the compose file.
+4. Run both the containers by running docker-compose command.
+5. Verify WordPress application is accessible.
+6. Verify MySQL db is accessible.
+7. Stop both the containers by running docker-compose command.
+
+Step-- install Docker compose
+=====> sudo curl -L "https://github.com/docker/compose/releases/download/1.26.0/docker-compose-$(uname -s)-$(uname -m)"  -o /usr/local/bin/docker-compose
+=====> sudo mv /usr/local/bin/docker-compose /usr/bin/docker-compose
+=====>sudo chmod +x /usr/bin/docker-compose
+
+step-1 create one docker Compose file
+
+step-2 execute the file by ---- docker compose up -d
+
+step-3 wordpress application build and deploy on docker
+
 
